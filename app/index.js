@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
   buttonContainer: {
     marginVertical: 10, // Espacio entre los botones
     width: '80%', // Ancho de los botones
-    paddingHorizontal: 8,
+    paddingHorizontal: 16,
     
   },
 });
