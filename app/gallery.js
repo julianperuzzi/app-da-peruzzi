@@ -66,7 +66,8 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 24,
-    marginBottom: 20,
+    marginBottom: 10,
+    marginTop: 20,
     textAlign: 'center',
   },
   welcomeMessage: {

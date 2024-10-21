@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     alignItems: 'center', // Centra los elementos horizontalmente
   },
   container: {
-    backgroundColor: 'rgba(255, 255, 255, 1)', 
+    backgroundColor: 'rgba(25, 25, 25, 1)', 
     padding: 30,
     borderRadius: 10,
     margin: 8,
@@ -61,25 +61,28 @@ const styles = StyleSheet.create({
     fontSize: 28,
     fontWeight: 'bold',
     marginBottom: 10,
-    color: '#333', // Color del texto
+    color: '#ffffff', 
+    textAlign: 'center', 
+
   },
   description: {
     fontSize: 20,
     marginBottom: 20,
     textAlign: 'left', 
-    color: '#555', // Color del texto
+    color: '#ffffff', 
    
   },
   alumno: {
     fontSize: 18,
     marginTop: 20,
     textAlign: 'left', 
-    color: '#555', // Color del texto
+    color: '#ffffff', 
    
   },
   buttonContainer: {
     marginVertical: 10, // Espacio entre los botones
     width: '80%', // Ancho de los botones
+    paddingHorizontal: 8,
     
   },
 });
